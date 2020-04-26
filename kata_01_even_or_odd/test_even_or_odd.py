@@ -4,7 +4,7 @@ from random import choice
 from kata_01_even_or_odd.even_or_odd import even_or_odd, lambda_even_or_odd
 
 
-class EvenOrOddTest(unittest.TestCase):
+class TestEvenOrOdd(unittest.TestCase):
 
 	def test_is_even(self):
 		self.assertEqual(even_or_odd(choice(range(-100, 100, 2))), 'Even')
